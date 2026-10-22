@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre as melhores casas, apartamentos e terrenos com o Corretor Leandro Ferreira. Atendimento personalizado e transparente.">
+    <title>Leandro Ferreira | Corretor de Imóveis</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho com a barra de navegação -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html">
+                <img src="assets/Logo Leandro Corretor.png" class="navbar-logo" alt="Leandro Ferreira Corretor de Imóveis">
+            </a>
+            <nav>
+                <ul class="navbar-menu">
+                    <li><a href="index.html" class="navbar-link">Início</a></li>
+                    <li><a href="sobre.html" class="navbar-link">Sobre Mim</a></li>
+                    <li><a href="imoveis.html" class="navbar-link">Imóveis</a></li>
+                    <li><a href="contato.html" class="navbar-link active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2 class="section-title">Fale Conosco</h2>
+            <p class="section-subtitle">Estou à sua disposição para esclarecer dúvidas e agendar visitas com total discrição.</p>
+
+            <!-- Grid que divide a tela em duas colunas (Info na esquerda e Formulário na direita) -->
+            <div class="contact-container">
+                
+                <!-- Coluna 1: Cartão com seus canais diretos de contato -->
+                <div class="contact-info-card">
+                    <h3 class="contact-info-title">Atendimento Direto</h3>
+                    <ul class="contact-list">
+                        <li class="contact-list-item">
+                            <div>
+                                <strong>Região de Atuação</strong>
+                                <p>Atendimento VIP personalizado na sua região.</p>
+                            </div>
+                        </li>
+                        <li class="contact-list-item">
+                            <div>
+                                <strong>Telefone & WhatsApp</strong>
+                                <p><a href="https://wa.me/5542984395793" target="_blank" class="footer-author-link">(42) 9 8439-5793</a></p>
+                            </div>
+                        </li>
+                        <li class="contact-list-item">
+                            <div>
+                                <strong>E-mail Comercial</strong>
+                                <p><a href="mailto:contato@leandroferreiracorretor.com.br" class="footer-author-link">contato@leandroferreiracorretor.com.br</a></p>
+                            </div>
+                        </li>
+                        <li class="contact-list-item">
+                            <div>
+                                <strong>Registro Profissional</strong>
+                                <p>CRECI F32934</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 2: Formulário de Mensagem direto ao seu e-mail/banco de dados -->
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="nome" class="form-label">Seu Nome Completo</label>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Ex: João Silva" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Seu E-mail de Contato</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Ex: seunome@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone" class="form-label">Seu Telefone/WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Ex: (42) 9 9999-9999">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem" class="form-label">Sua Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control" rows="5" placeholder="Olá Leandro, tenho interesse em conhecer os imóveis disponíveis..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-model btn-primary btn-contato">Enviar Mensagem</button>
+                    </form>
+                
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col-brand">
+                <img src="assets/Logo Leandro Corretor.png" class="footer-logo" alt="Leandro Ferreira Logo">
+                <p class="footer-brand-desc">
+                    Assessoria personalizada voltada a atender às necessidades com excelência.
+                </p>
+            </div>
+            <div>
+                <h4 class="footer-col-title">Navegação</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" class="footer-link-item">Início</a></li>
+                    <li><a href="sobre.html" class="footer-link-item">Sobre Mim</a></li>
+                    <li><a href="portfolio.html" class="footer-link-item">Imóveis</a></li>
+                    <li><a href="contato.html" class="footer-link-item">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-col-title">Informações</h4>
+                <p class="footer-creci">CRECI F32934</p>
+                <p class="footer-region">Atendimento especializado em Carambeí e Ponta Grossa.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Desenvolvido por: <a href="https://www.linkedin.com/in/leandro-stepurski-ferreira/" target="_blank" class="footer-author-link">Leandro Stepurski</a></p>
+            <p class="footer-copyright">&copy; 2026 Leandro Ferreira Corretor de Imóveis. Todos os direitos reservados.</p>
+        </div>
+        <script src="js/contactForm.js"></script>
+    </footer>
+</body>
+
+</html>

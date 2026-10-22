@@ -1,0 +1,124 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-conteudo {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-text-main);
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--color-text-muted);
+    margin-bottom: 30px;
+}
+
+.btn-model {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-smooth); /* O cronômetro */
+}
+
+.btn-search {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+}
+
+.btn-search:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.container-filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-filter-box  {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.filter-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) auto;
+    align-items: flex-end;
+    width: 100%;
+    gap: 20px;
+    background-color: var(--color-bg-light);
+    padding: 20px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.filter-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.filter-select {
+    padding: 8px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+.filter-input {
+    padding: 8px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .hero-conteudo {
+        padding: 60px 20px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .filter-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .btn-search {
+        width: 100%;
+    }
+
+}

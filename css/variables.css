@@ -1,0 +1,24 @@
+/* VARIÁVEIS DO DESIGN SYSTEM */
+:root {
+  /* Cores extraídas da logo */
+  --color-primary: #8A7447;        /* O bronze dourado elegante da logo */
+  --color-primary-dark: #6E5C38;   /* Tom mais escuro para estados de foco/hover */
+  --color-primary-light: #F4F0E6;  /* Creme suave para fundos alternativos e cards */
+  --color-bg-main: #FBFBFA;        /* Off-white premium para o fundo das páginas */
+  --color-bg-card: #FFFFFF;        /* Branco puro para destacar os cards de imóveis */
+  --color-text-main: #2A261F;      /* Grafite escuro aquecido para excelente legibilidade */
+  --color-text-muted: #6E685E;     /* Cinza médio para descrições secundárias */
+  --color-border: #E5DFD3;         /* Linha divisória suave e elegante */
+
+  /* Tipografia */
+  --font-heading: 'Poppins', Georgia, serif; /* Fonte serifada clássica para títulos e destaques */
+  --font-body: 'Montserrat', sans-serif; /* Fonte sans-serif moderna e limpa para o corpo do texto */
+
+  /* Arredondamento e Efeitos */
+  --radius-sm: 4px; /* Inputs e botões menores */
+  --radius-md: 8px; /* Botões grandes e caixas de filtro */
+  --radius-lg: 16px; /* Cards de imóveis inteiros */
+  --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Controla a animação de quando o usuário passa o mouse em um botão */
+  --shadow-soft: 0 4px 20px rgba(42, 38, 31, 0.05); /* Faz a Barra de filtros flutuar discretamente sobre o banner*/
+  --shadow-medium: 0 8px 30px rgba(42, 38, 31, 0.08); /* Efeito de que o card do imóvel "subiu" quando o usuário passa o mouse por cima dele */
+}
